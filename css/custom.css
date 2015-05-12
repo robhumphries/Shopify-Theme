@@ -387,12 +387,12 @@ blockquote {
     cursor: pointer;
     display: inline-block;
     width: 100%;
-    line-height: 1.1em;
+    line-height: 50px;
     height: 50px;
     font-family: 'lato';
     letter-spacing: .1em;
     margin: 0em 0px 1em 0px;
-    padding: 1em 2em 1em 2em;
+    padding: 0px 1em ;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -426,10 +426,11 @@ input[type="text"].newsletter {
 }
 
 #newsletter .btn {
-    width: 120px;
+    width: 160px;
     display: inline-block;
-    padding: 1em;
+    padding: 0px 1em;
     height: 50px;
+    line-height: 50px;
     vertical-align: bottom;
     margin: 0px 0em 0px .6px;
 }
@@ -552,7 +553,7 @@ footer div.columns:last-child {
         margin-right: 1.4em;
     }
     .btn, input.newsletter {
-        max-width: 320px;
+        max-width: 240px;
     }
     #customButton.btn {
     max-width :100%;
